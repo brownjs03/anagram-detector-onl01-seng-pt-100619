@@ -10,6 +10,7 @@ class Anagram
   
   def match(words)
     matches = []
+    binding.pry
     words.split
     
   end
