@@ -12,8 +12,7 @@ class Anagram
     matches = []
     binding.pry
     words.each do |word|
-      if word.split.sort == @word.split.sort
-        matches << word
+      
         end
       end
   end
