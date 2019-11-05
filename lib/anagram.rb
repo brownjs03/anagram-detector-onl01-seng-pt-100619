@@ -9,8 +9,7 @@ class Anagram
   end
   
   def match(words)
-    binding.pry
-    words.split
+    words.find_all 
     
   end
   
