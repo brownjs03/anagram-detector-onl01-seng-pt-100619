@@ -6,7 +6,7 @@ class Anagram
     @word = word
   end
   
-  def match
+  def match(new_word)
     @word.split.sort 
   end
   
