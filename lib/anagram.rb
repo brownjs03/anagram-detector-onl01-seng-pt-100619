@@ -7,6 +7,7 @@ class Anagram
   end
   
   def match(new_word)
+    binding.pry
     @word.split.sort == new_word.split.sort
   end
   
