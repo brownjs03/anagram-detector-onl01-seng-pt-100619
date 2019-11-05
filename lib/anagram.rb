@@ -10,9 +10,9 @@ class Anagram
   
   def match(words)
     matches = []
+    binding.pry
     words.each do |word|
       if word.split.sort == @word.split.sort
-        binding.pry
         matches << word
         end
       end
